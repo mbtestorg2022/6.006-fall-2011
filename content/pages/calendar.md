@@ -4,39 +4,384 @@ title: Calendar
 uid: 2614e308-dd07-490f-b250-81df82b2e3c9
 ---
 
-| LEC # | TOPICS | KEY DATES |
-| --- | --- | --- |
-| {{< td-colspan 3 >}}**Unit 1: Introduction**{{< /td-colspan >}} |||
-| 1 | Algorithmic thinking, peak finding | Problem set 1 out |
-| 2 | Models of computation, Python cost model, document distance | &nbsp; |
-| {{< td-colspan 3 >}}**Unit 2: Sorting and Trees**{{< /td-colspan >}} |||
-| 3 | Insertion sort, merge sort | Problem set 1 due  {{< br >}}Problem set 2 out |
-| 4 | Heaps and heap sort | &nbsp; |
-| 5 | Binary search trees, BST sort | &nbsp; |
-| 6 | AVL trees, AVL sort | Problem set 2 due |
-| 7 | Counting sort, radix sort, lower bounds for sorting and searching | Problem set 3 out |
-| {{< td-colspan 3 >}}**Unit 3: Hashing**{{< /td-colspan >}} |||
-| 8 | Hashing with chaining | &nbsp; |
-| 9 | Table doubling, Karp-Rabin | Problem set 3 due  {{< br >}}Problem set 4 out |
-| 10 | Open addressing, cryptographic hashing | Problem set 4 due |
-| &nbsp; | Quiz 1 | &nbsp; |
-| {{< td-colspan 3 >}}**Unit 4: Numerics**{{< /td-colspan >}} |||
-| 11 | Integer arithmetic, Karatsuba multiplication | Problem set 5 out |
-| 12 | Square roots, Newton's method | &nbsp; |
-| {{< td-colspan 3 >}}**Unit 5: Graphs**{{< /td-colspan >}} |||
-| 13 | Breadth-first search (BFS) | &nbsp; |
-| 14 | Depth-first search (DFS), topological sorting | Problem set 5 due  {{< br >}}Problem set 6 out |
-| {{< td-colspan 3 >}}**Unit 6: Shortest Paths**{{< /td-colspan >}} |||
-| 15 | Single-source shortest paths problem | &nbsp; |
-| 16 | Dijkstra | &nbsp; |
-| 17 | Bellman-Ford | &nbsp; |
-| 18 | Speeding up Dijkstra | Problem set 6 due |
-| &nbsp; | Quiz 2 | &nbsp; |
-| {{< td-colspan 3 >}}**Unit 7: Dynamic Programming**{{< /td-colspan >}} |||
-| 19 | Memoization, subproblems, guessing, bottom-up; Fibonacci, shortest paths | Problem set 7 out |
-| 20 | Parent pointers; text justification, perfect-information blackjack | &nbsp; |
-| 21 | String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack | &nbsp; |
-| 22 | Two kinds of guessing; piano/guitar fingering, Tetris training, Super Mario Bros. | Problem set 7 due |
-| {{< td-colspan 3 >}}**Unit 8: Advanced Topics**{{< /td-colspan >}} |||
-| 23 | Computational complexity | &nbsp; |
-| 24 | Algorithms research topics |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Unit 1: Introduction**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Algorithmic thinking, peak finding
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 1 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Models of computation, Python cost model, document distance
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Unit 2: Sorting and Trees**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Insertion sort, merge sort
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 1 due  
+Problem set 2 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Heaps and heap sort
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Binary search trees, BST sort
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+AVL trees, AVL sort
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 2 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Counting sort, radix sort, lower bounds for sorting and searching
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 3 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Unit 3: Hashing**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Hashing with chaining
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Table doubling, Karp-Rabin
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 3 due  
+Problem set 4 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Open addressing, cryptographic hashing
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 4 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Unit 4: Numerics**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Integer arithmetic, Karatsuba multiplication
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 5 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Square roots, Newton's method
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Unit 5: Graphs**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Breadth-first search (BFS)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Depth-first search (DFS), topological sorting
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 5 due  
+Problem set 6 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Unit 6: Shortest Paths**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Single-source shortest paths problem
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Dijkstra
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Bellman-Ford
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Speeding up Dijkstra
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 6 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Unit 7: Dynamic Programming**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Memoization, subproblems, guessing, bottom-up; Fibonacci, shortest paths
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 7 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Parent pointers; text justification, perfect-information blackjack
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Two kinds of guessing; piano/guitar fingering, Tetris training, Super Mario Bros.
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 7 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Unit 8: Advanced Topics**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Computational complexity
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Algorithms research topics
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

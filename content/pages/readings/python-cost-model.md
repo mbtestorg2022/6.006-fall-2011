@@ -34,39 +34,510 @@ The machine used was an IBM Thinkpad T43p with a 1.86GHz Pentium M processor and
 
 \[This output may have results somewhat different than in the charts below, due to random run-time variations...\]
 
-| **Convert string to integer** | `int(s)` | `84 \* (n/1000)^2 microseconds` | `n <= 8000` | 6% rms error |
-| **Convert integer to string** | `str(x)` | `75 \* (n/1000)^2 microseconds` | `n <= 8000` | 3% rms error |
-| **Convert integer to hex** | `"%x"%x` | `2.7 \* (n/1000) microseconds` | `n <= 64000` | 19% rms error |
-| **Addition (or Subtraction)** | `x+y` | `0.75 \* (n/1000) microseconds` | `n <= 512000` | 8% rms error |
-| **Multiplication** | `x\*y` | `13.73 \* (n/1000)^1.585 microseconds` | `n <= 64000` | 10% rms error |
-| **Division (or Remainder)** | `w/x` | `47 \* (n/1000)^2 microseconds` | `n <= 32000` | 6% rms error |
-| **Modular Exponentiation** | `pow(x,y,z)` | `60000 \* (n/1000)^3 microseconds` | `n <= 4000` | 8% rms error |
-| **n-th power of two** | `2\*\*n` | `0.06 microseconds` | `n <= 512000` | 10% rms error 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Convert string to integer**
+{{< tdclose >}}
+{{< tdopen >}}
+`int(s)`
+{{< tdclose >}}
+{{< tdopen >}}
+`84 \* (n/1000)^2 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 8000`
+{{< tdclose >}}
+{{< tdopen >}}
+6% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Convert integer to string**
+{{< tdclose >}}
+{{< tdopen >}}
+`str(x)`
+{{< tdclose >}}
+{{< tdopen >}}
+`75 \* (n/1000)^2 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 8000`
+{{< tdclose >}}
+{{< tdopen >}}
+3% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Convert integer to hex**
+{{< tdclose >}}
+{{< tdopen >}}
+`"%x"%x`
+{{< tdclose >}}
+{{< tdopen >}}
+`2.7 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+19% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Addition (or Subtraction)**
+{{< tdclose >}}
+{{< tdopen >}}
+`x+y`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.75 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 512000`
+{{< tdclose >}}
+{{< tdopen >}}
+8% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Multiplication**
+{{< tdclose >}}
+{{< tdopen >}}
+`x\*y`
+{{< tdclose >}}
+{{< tdopen >}}
+`13.73 \* (n/1000)^1.585 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+10% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Division (or Remainder)**
+{{< tdclose >}}
+{{< tdopen >}}
+`w/x`
+{{< tdclose >}}
+{{< tdopen >}}
+`47 \* (n/1000)^2 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 32000`
+{{< tdclose >}}
+{{< tdopen >}}
+6% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Modular Exponentiation**
+{{< tdclose >}}
+{{< tdopen >}}
+`pow(x,y,z)`
+{{< tdclose >}}
+{{< tdopen >}}
+`60000 \* (n/1000)^3 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 4000`
+{{< tdclose >}}
+{{< tdopen >}}
+8% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**n-th power of two**
+{{< tdclose >}}
+{{< tdopen >}}
+`2\*\*n`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.06 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 512000`
+{{< tdclose >}}
+{{< tdopen >}}
+10% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 It is perhaps curious that multiplication is implemented using Karatsuba's algorithm, giving an Θ(_n_lg 3) running time, while division uses an Θ(_n_2) algorithm.
 
-| **Extract a byte from a string** | `s\[i\]` | `0.13 microseconds` | `n <= 512000` | 29% rms error |
-| **Concatenate** | `s+t` | `1 \* (n/1000) microseconds` | `n <= 256000` | 19% rms error |
-| **Extract string of length n/2** | `s\[0:n/2\]` | `0.3 \* (n/1000) microseconds` | `n <= 256000` | 28% rms error |
-| **Translate a string** | `s.translate(s,T)` | `3.2 \* (n/1000) microseconds` | `n <= 256000` | 11% rms error 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Extract a byte from a string**
+{{< tdclose >}}
+{{< tdopen >}}
+`s\[i\]`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.13 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 512000`
+{{< tdclose >}}
+{{< tdopen >}}
+29% rms error
+{{< tdclose >}}
 
-| **Create an empty list** | `list()` | `0.40 microseconds` | `(n=1)` | .5% rms error |
-| **Access** | `L\[i\]` | `0.10 microseconds` | `n <= 640000` | 3% rms error |
-| **Append** | `L.append(0)` | `0.24 microseconds` | `n <= 640000` | 3% rms error |
-| **Pop** | `L.pop()` | `0.25 microseconds` | `n <= 64000` | 0.5% rms error |
-| **Concatenate** | `L+M` | `22 \* (n/1000) microseconds` | `n <= 64000` | 3% rms error |
-| **Slice extraction** | `L\[0:n/2\]` | `5.4 \* (n/1000) microseconds` | `n <= 64000` | 4% rms error |
-| **Copy** | `L\[:\]` | `11.5 \* (n/1000) microseconds` | `n <= 64000` | 10% rms error |
-| **Slice assignment** | `L\[0:n/2\] = P` | `11 \* (n/1000) microseconds` | `n <= 64000` | 4% rms error |
-| **Delete first** | `del L\[0\]` | `1.7 \* (n/1000) microseconds` | `n <= 64000` | 4% rms error |
-| **Reverse** | `L.reverse()` | `1.3 \* (n/1000) microseconds` | `n <= 64000` | 10% rms error |
-| **Sort** | `L.sort()` | `0.0039 \* n lg(n) microseconds` | `n <= 64000` | 12% rms error 
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Concatenate**
+{{< tdclose >}}
+{{< tdopen >}}
+`s+t`
+{{< tdclose >}}
+{{< tdopen >}}
+`1 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 256000`
+{{< tdclose >}}
+{{< tdopen >}}
+19% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Extract string of length n/2**
+{{< tdclose >}}
+{{< tdopen >}}
+`s\[0:n/2\]`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.3 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 256000`
+{{< tdclose >}}
+{{< tdopen >}}
+28% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Translate a string**
+{{< tdclose >}}
+{{< tdopen >}}
+`s.translate(s,T)`
+{{< tdclose >}}
+{{< tdopen >}}
+`3.2 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 256000`
+{{< tdclose >}}
+{{< tdopen >}}
+11% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
+
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Create an empty list**
+{{< tdclose >}}
+{{< tdopen >}}
+`list()`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.40 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`(n=1)`
+{{< tdclose >}}
+{{< tdopen >}}
+.5% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Access**
+{{< tdclose >}}
+{{< tdopen >}}
+`L\[i\]`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.10 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 640000`
+{{< tdclose >}}
+{{< tdopen >}}
+3% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Append**
+{{< tdclose >}}
+{{< tdopen >}}
+`L.append(0)`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.24 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 640000`
+{{< tdclose >}}
+{{< tdopen >}}
+3% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Pop**
+{{< tdclose >}}
+{{< tdopen >}}
+`L.pop()`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.25 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+0.5% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Concatenate**
+{{< tdclose >}}
+{{< tdopen >}}
+`L+M`
+{{< tdclose >}}
+{{< tdopen >}}
+`22 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+3% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Slice extraction**
+{{< tdclose >}}
+{{< tdopen >}}
+`L\[0:n/2\]`
+{{< tdclose >}}
+{{< tdopen >}}
+`5.4 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+4% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Copy**
+{{< tdclose >}}
+{{< tdopen >}}
+`L\[:\]`
+{{< tdclose >}}
+{{< tdopen >}}
+`11.5 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+10% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Slice assignment**
+{{< tdclose >}}
+{{< tdopen >}}
+`L\[0:n/2\] = P`
+{{< tdclose >}}
+{{< tdopen >}}
+`11 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+4% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Delete first**
+{{< tdclose >}}
+{{< tdopen >}}
+`del L\[0\]`
+{{< tdclose >}}
+{{< tdopen >}}
+`1.7 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+4% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Reverse**
+{{< tdclose >}}
+{{< tdopen >}}
+`L.reverse()`
+{{< tdclose >}}
+{{< tdopen >}}
+`1.3 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+10% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Sort**
+{{< tdclose >}}
+{{< tdopen >}}
+`L.sort()`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.0039 \* n lg(n) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+12% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 The **first** time one appends to a list, there is additional cost as the list is copied over and extra space, about 1/8 of the list size, is added to the end. Whenever the extra space is used up, the list is re-allocated into a new array with about 1.125 the length of the previous version.
 
-| **Create an empty dictionary** | `dict()` | `0.36 microseconds` | `(n=1)` | 0% rms error |
-| **Access** | `D\[i\]` | `0.12 microseconds` | `n <= 64000` | 3% rms error |
-| **Copy** | `D.copy()` | `57 \* (n/1000) microseconds` | `n <= 64000` | 27% rms error |
-| **List items** | `D.items()` | `0.0096 \* n lg(n) microseconds` | `n <= 64000` | 14% rms error 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Create an empty dictionary**
+{{< tdclose >}}
+{{< tdopen >}}
+`dict()`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.36 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`(n=1)`
+{{< tdclose >}}
+{{< tdopen >}}
+0% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Access**
+{{< tdclose >}}
+{{< tdopen >}}
+`D\[i\]`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.12 microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+3% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Copy**
+{{< tdclose >}}
+{{< tdopen >}}
+`D.copy()`
+{{< tdclose >}}
+{{< tdopen >}}
+`57 \* (n/1000) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+27% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**List items**
+{{< tdclose >}}
+{{< tdopen >}}
+`D.items()`
+{{< tdclose >}}
+{{< tdopen >}}
+`0.0096 \* n lg(n) microseconds`
+{{< tdclose >}}
+{{< tdopen >}}
+`n \<= 64000`
+{{< tdclose >}}
+{{< tdopen >}}
+14% rms error
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 What should the right high-order term be for copy and list items? It seems these should be linear, but the data for both looks somewhat super-linear. We've modelled copy here as linear and list items as `n lg(n)`, but these formulae need further work and exploration.
