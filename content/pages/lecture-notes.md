@@ -41,7 +41,7 @@ TOPICS
 
 Models of computation, document distance
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes (PDF - 5.2MB)]({{< baseurl >}}/resources/mit6_006f11_lec02_orig)
+*   [Original (handwritten) notes (PDF - 5.2MB)]({{< baseurl >}}/resources/mit6_006f11_lec02_orig)
 *   [Typed notes (PDF)]({{< baseurl >}}/resources/mit6_006f11_lec02)
 *   [Lecture code (ZIP)]({{< baseurl >}}/resources/lec02_code) (This ZIP file contains: 8 .py files.)
 
@@ -91,7 +91,7 @@ Models of computation, document distance
 
 AVL trees, AVL sort
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes (PDF - 3.9MB)]({{< baseurl >}}/resources/mit6_006f11_lec06_orig)
+*   [Original (handwritten) notes (PDF - 3.9MB)]({{< baseurl >}}/resources/mit6_006f11_lec06_orig)
 *   [Typed notes (PDF - 1.4MB)]({{< baseurl >}}/resources/mit6_006f11_lec06)
 *   [Lecture code (ZIP)]({{< baseurl >}}/resources/lec06_code) (This ZIP file contains: 2 .py files and 1 .txt file.)
 
@@ -108,7 +108,7 @@ AVL trees, AVL sort
 
 Counting sort, radix sort, lower bounds for sorting
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes (PDF - 3.1MB)]({{< baseurl >}}/resources/mit6_006f11_lec07_orig)
+*   [Original (handwritten) notes (PDF - 3.1MB)]({{< baseurl >}}/resources/mit6_006f11_lec07_orig)
 *   [Typed notes (PDF)]({{< baseurl >}}/resources/mit6_006f11_lec07)
 
 
@@ -130,7 +130,7 @@ Counting sort, radix sort, lower bounds for sorting
 
 Hashing with chaining
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes (PDF - 4.3MB)]({{< baseurl >}}/resources/mit6_006f11_lec08_orig)
+*   [Original (handwritten) notes (PDF - 4.3MB)]({{< baseurl >}}/resources/mit6_006f11_lec08_orig)
 *   [Typed notes (PDF)]({{< baseurl >}}/resources/mit6_006f11_lec08)
 
 
@@ -146,7 +146,7 @@ Hashing with chaining
 
 Table doubling, Karp-Rabin
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes (PDF - 3.7MB)]({{< baseurl >}}/resources/mit6_006f11_lec09_orig)
+*   [Original (handwritten) notes (PDF - 3.7MB)]({{< baseurl >}}/resources/mit6_006f11_lec09_orig)
 *   [Typed notes (PDF)]({{< baseurl >}}/resources/mit6_006f11_lec09)
 
 
@@ -201,7 +201,7 @@ Table doubling, Karp-Rabin
 
 Breadth-first search (BFS)
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes (PDF - 3.8MB)]({{< baseurl >}}/resources/mit6_006f11_lec13_orig)
+*   [Original (handwritten) notes (PDF - 3.8MB)]({{< baseurl >}}/resources/mit6_006f11_lec13_orig)
 *   [Typed notes (PDF - 1.5MB)]({{< baseurl >}}/resources/mit6_006f11_lec13)
 
 
@@ -217,7 +217,7 @@ Breadth-first search (BFS)
 
 Depth-first search (DFS), topological sorting
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes (PDF - 3.1MB)]({{< baseurl >}}/resources/mit6_006f11_lec14_orig)
+*   [Original (handwritten) notes (PDF - 3.1MB)]({{< baseurl >}}/resources/mit6_006f11_lec14_orig)
 *   [Typed notes (PDF - 1.6MB)]({{< baseurl >}}/resources/mit6_006f11_lec14)
 
 
@@ -281,7 +281,7 @@ Depth-first search (DFS), topological sorting
 
 Dynamic programming I: Fibonacci, shortest paths
 
-*   [![This resource may not render correctly in a screen reader.](/images/inacessible.gif)Original (handwritten) notes (PDF - 3.8MB)]({{< baseurl >}}/resources/mit6_006f11_lec19_orig)
+*   [Original (handwritten) notes (PDF - 3.8MB)]({{< baseurl >}}/resources/mit6_006f11_lec19_orig)
 *   [Typed notes (PDF - 1.1MB)]({{< baseurl >}}/resources/mit6_006f11_lec19)
 
 
@@ -297,7 +297,7 @@ Dynamic programming I: Fibonacci, shortest paths
 
 Dynamic programming II: text justification, blackjack
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes (PDF - 4.0MB)]({{< baseurl >}}/resources/mit6_006f11_lec20_orig)
+*   [Original (handwritten) notes (PDF - 4.0MB)]({{< baseurl >}}/resources/mit6_006f11_lec20_orig)
 *   [Typed notes (PDF)]({{< baseurl >}}/resources/mit6_006f11_lec20)
 
 
@@ -313,7 +313,7 @@ Dynamic programming II: text justification, blackjack
 
 Dynamic programming III: parenthesization, edit distance, knapsack
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes (PDF - 4.2MB)]({{< baseurl >}}/resources/mit6_006f11_lec21_orig)
+*   [Original (handwritten) notes (PDF - 4.2MB)]({{< baseurl >}}/resources/mit6_006f11_lec21_orig)
 *   [Typed notes (PDF)]({{< baseurl >}}/resources/mit6_006f11_lec21)
 
 
@@ -329,7 +329,7 @@ Dynamic programming III: parenthesization, edit distance, knapsack
 
 Dynamic programming IV: guitar fingering, Tetris, Super Mario Bros.
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes (PDF - 4.4MB)]({{< baseurl >}}/resources/mit6_006f11_lec22_orig)
+*   [Original (handwritten) notes (PDF - 4.4MB)]({{< baseurl >}}/resources/mit6_006f11_lec22_orig)
 *   [Typed notes (PDF)]({{< baseurl >}}/resources/mit6_006f11_lec22)
 
 
@@ -351,7 +351,7 @@ Dynamic programming IV: guitar fingering, Tetris, Super Mario Bros.
 
 Computational complexity
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes (PDF - 3.9MB)]({{< baseurl >}}/resources/mit6_006f11_lec23_orig)
+*   [Original (handwritten) notes (PDF - 3.9MB)]({{< baseurl >}}/resources/mit6_006f11_lec23_orig)
 *   [Typed notes (PDF)]({{< baseurl >}}/resources/mit6_006f11_lec23)
 
 
@@ -367,7 +367,7 @@ Computational complexity
 
 Topics in algorithms research
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Original (handwritten) notes for second half of class (PDF - 4.4MB)]({{< baseurl >}}/resources/mit6_006f11_lec24_orig)
+*   [Original (handwritten) notes for second half of class (PDF - 4.4MB)]({{< baseurl >}}/resources/mit6_006f11_lec24_orig)
 *   [Typed notes (PDF - 1.8MB)]({{< baseurl >}}/resources/mit6_006f11_lec24)
 
 
